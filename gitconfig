@@ -1,3 +1,6 @@
    [user]
      name = shuspes
      email = shuspes@gmail.com
+
+[alias]
+        hist = log -20 --date=short --pretty=format:\"%ad - %h - %an - %s\"
