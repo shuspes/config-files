@@ -3,4 +3,5 @@
      email = shuspes@gmail.com
 
 [alias]
-        hist = log -20 --date=short --pretty=format:\"%ad - %h - %an - %s\"
+        hist = log -20 --date=short --pretty=format:\"%C(yellow)%ad%Creset - %Cred%h%Creset - %Cgreen%an%Creset - %C(auto)%d%Creset %s\"
+        list = branch --list
